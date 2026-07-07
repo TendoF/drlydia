@@ -53,7 +53,7 @@ nav{position:fixed;top:0;width:100%;z-index:900;height:76px;display:flex;align-i
 .btn-ghost{background:transparent;color:#fff;padding:15px 30px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:1px;border:2px solid rgba(255,255,255,.45);cursor:pointer;transition:all .2s;display:inline-block;}
 .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08);}
 
-#hero{min-height:100vh;padding-top:76px;background:linear-gradient(to right,rgba(10,25,41,.93) 50%,rgba(10,25,41,.58) 100%),url('https://images.unsplash.com/photo-1666214280165-31e1a7b0da84?w=1800&q=85') center/cover no-repeat;display:flex;align-items:center;}
+#hero{min-height:100vh;padding-top:76px;background:linear-gradient(to right,rgba(10,25,41,.93) 50%,rgba(10,25,41,.58) 100%),url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1800&q=85') center/cover no-repeat;display:flex;align-items:center;}
 .hero-wrap{max-width:1280px;margin:0 auto;width:100%;padding:70px 48px;display:grid;grid-template-columns:1fr 290px;gap:44px;align-items:center;}
 .hero-tag{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:3px;color:var(--teal);margin-bottom:16px;}
 .hero-h1{font-family:'Montserrat',sans-serif;font-size:52px;font-weight:900;line-height:1.07;color:#fff;margin-bottom:20px;}
@@ -123,7 +123,7 @@ nav{position:fixed;top:0;width:100%;z-index:900;height:76px;display:flex;align-i
 .ap-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:stretch;}
 .ap-left{padding-right:64px;}
 .ap-right{position:relative;min-height:460px;overflow:hidden;}
-.ap-right-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=900&q=80') center/cover no-repeat;width:100%;height:100%;}
+.ap-right-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900&q=80') center/cover no-repeat;width:100%;height:100%;}
 .ap-ov{position:absolute;inset:0;background:rgba(10,25,41,.72);display:flex;flex-direction:column;justify-content:flex-end;padding:38px;width:100%;height:100%;}
 .sl-lnk{display:flex;align-items:center;gap:14px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.15);}
 .sl-lnk:last-child{border-bottom:none;}
@@ -403,7 +403,7 @@ footer{background:var(--navy);padding:70px 0 28px;}
 </section>
 
 <section id="about" class="sp"><div class="ct"><div class="ab-grid rv">
-  <img src="https://images.unsplash.com/photo-1622253692010-333f3d2f4d6b?w=800&q=80" alt="Dr Lydia Mazhude - General Practitioner" class="ab-img" loading="lazy">
+  <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80" alt="Dr Lydia Mazhude - General Practitioner" class="ab-img" loading="lazy">
   <div>
     <div class="ey"><div class="si t"><svg viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><div class="st">About Dr Mazhude</div></div>
     <div class="ul"></div>
@@ -627,12 +627,12 @@ function toggleFaq(el){
   if(!isOpen){ans.classList.add('open');el.classList.add('open');}
 }
 const D={
-  diagnose:{title:'Diagnoses Illnesses',img:'https://images.unsplash.com/photo-1584515933487-779824d29309?w=900&q=80',ov:'Dr Mazhude evaluates patients presenting with acute symptoms and provides accurate diagnosis and treatment.',cond:['Infections','Body aches','Respiratory issues','Minor injuries','Fever','Fatigue'],tx:['Clinical history taking','Physical examination','Diagnostic testing referral','Treatment planning']},
-  chronic:{title:'Manages Chronic Conditions',img:'https://images.unsplash.com/photo-1666214280165-31e1a7b0da84?w=900&q=80',ov:'Ongoing monitoring and management of long-term health conditions to keep patients stable and well.',cond:['Hypertension','Diabetes','Asthma','High cholesterol'],tx:['Regular monitoring','Medication adjustment','Lifestyle counselling','Long-term care planning']},
+  diagnose:{title:'Diagnoses Illnesses',img:'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=900&q=80',ov:'Dr Mazhude evaluates patients presenting with acute symptoms and provides accurate diagnosis and treatment.',cond:['Infections','Body aches','Respiratory issues','Minor injuries','Fever','Fatigue'],tx:['Clinical history taking','Physical examination','Diagnostic testing referral','Treatment planning']},
+  chronic:{title:'Manages Chronic Conditions',img:'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80',ov:'Ongoing monitoring and management of long-term health conditions to keep patients stable and well.',cond:['Hypertension','Diabetes','Asthma','High cholesterol'],tx:['Regular monitoring','Medication adjustment','Lifestyle counselling','Long-term care planning']},
   prescribe:{title:'Prescribes Medication',img:'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=900&q=80',ov:'Writing prescriptions, monitoring treatment plans, and adjusting dosages based on patient recovery.',cond:['New prescriptions','Repeat prescriptions','Dosage adjustments'],tx:['Treatment monitoring','Side effect review','Medication reviews']},
-  checkup:{title:'Routine Check-ups',img:'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80',ov:'Wellness assessments, physical examinations, and routine health screenings for all patients.',cond:['Annual physicals','Wellness checks','Health screenings'],tx:['Full physical exam','Vital signs check','Preventive screening']},
+  checkup:{title:'Routine Check-ups',img:'https://images.unsplash.com/photo-1512678080530-7760d81faba6?w=900&q=80',ov:'Wellness assessments, physical examinations, and routine health screenings for all patients.',cond:['Annual physicals','Wellness checks','Health screenings'],tx:['Full physical exam','Vital signs check','Preventive screening']},
   refer:{title:'Specialist Referrals',img:'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900&q=80',ov:'Assessing complex cases and referring patients to specialised consultants or advanced testing facilities.',cond:['Complex diagnoses','Specialist care needs','Advanced imaging needs'],tx:['Specialist referral letters','Coordination of care','Follow-up support']},
-  kids:{title:'Family Medicine',img:'https://images.unsplash.com/photo-1622253692010-333f3d2f4d6b?w=900&q=80',ov:'General care for patients of all ages, from children to the elderly, in one trusted practice.',cond:['Child health','Adult health','Elderly care'],tx:['Age-appropriate care','Family health planning','Preventive advice']}
+  kids:{title:'Family Medicine',img:'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80',ov:'General care for patients of all ages, from children to the elderly, in one trusted practice.',cond:['Child health','Adult health','Elderly care'],tx:['Age-appropriate care','Family health planning','Preventive advice']}
 };
 function oM(k){
   const s=D[k];
